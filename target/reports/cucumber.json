@@ -1,0 +1,318 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-03T14:58:51.426Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2374407800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepdefinition.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "user should be able to make new account with valid credentials in bank \u0026 cash menu",
+        "description": "",
+        "id": "techfios-billing-loginpage-functionality-validation;user-should-be-able-to-make-new-account-with-valid-credentials-in-bank-\u0026-cash-menu;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 220978800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepdefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 297538200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.LoginStepdefinition.user_is_on_the_tecfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3092641100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepdefinition.User_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3082750900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepdefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3542140400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepdefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220298200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to land on dashboard page",
+            "match": {
+              "location": "steps.LoginStepdefinition.user_should_be_able_to_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1107821100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Bank \u0026 Cash Menu button",
+            "match": {
+              "location": "steps.DashboardStepDefinition.user_clicks_on_Bank_Cash_Menu_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1299896400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on New account under Bank \u0026 cash menu button",
+            "match": {
+              "location": "steps.DashboardStepDefinition.user_clicks_on_New_account_under_Bank_cash_menu_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263255900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to land on Accounts Page",
+            "match": {
+              "location": "steps.DashboardStepDefinition.user_should_be_able_to_land_on_Accounts_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2125226500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters account Title as \"Checking Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checking Account\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.BankCashNewAccountStepdefinition.user_enters_account_Title_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2106418800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters description as \"saving money\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saving money\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.BankCashNewAccountStepdefinition.user_enters_description_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2149925300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters initial balance as \"200000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200000\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.BankCashNewAccountStepdefinition.user_enters_initial_balance_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2130521500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters account number as \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.BankCashNewAccountStepdefinition.user_enters_account_number_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2102885500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters contact person as \"MGA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MGA\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.BankCashNewAccountStepdefinition.user_enters_contact_person_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2117530600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters phone as \"987654321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"987654321\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.BankCashNewAccountStepdefinition.user_enters_phone_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2109814800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters internet banking url as \"www.bofa.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"www.bofa.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.BankCashNewAccountStepdefinition.user_enters_internet_banking_url_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3606362800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "steps.BankCashNewAccountStepdefinition.user_clicks_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245347000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should be able to land on Accounts page",
+            "match": {
+              "location": "steps.BankCashNewAccountStepdefinition.user_should_be_able_to_land_on_Accounts_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@B\u0026CashFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios billing loginpage functionality validation",
+    "description": "",
+    "id": "techfios-billing-loginpage-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Bank\u0026CashLogin.feature",
+    "tags": [
+      {
+        "name": "@B\u0026CashFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
